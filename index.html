@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Uber Clone by Nxtwave Student">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Chakradhar A">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="main">
+        <nav class="nav-header">
+            <div class="nav-items">
+                <ul class="list-nav-items">
+                    <li class="uber-text">Uber</li>
+                    <li class="nav-text">Ride</li>
+                    <li class="nav-text">Drive</li>
+                    <li class="nav-text">Bussiness</li>
+                    <li class="nav-text">About</li>
+                </ul>
+                <ul class="list-nav-items">
+                    <li class="nav-text">EN</li>
+                    <li class="nav-text">Help</li>
+                    <li class="nav-text">Log in</li>
+                    <li class="nav-text">
+                        <button class="sign-up-btn">Sign Up</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="sections-container">
+            <section>
+                <div class="input-details-container">
+                    <h1 class="input-heading">Go anywhere with Uber</h1>
+                    <div class="car-package-icons-container">
+                        <div class="icons-container">
+                            <i id="car-icon" class="fa-solid fa-car"></i>
+                            <span class="icon-text">Ride</span>
+                        </div>
+                        <div class="icons-container">
+                            <i id="package-icon" style="background-color: none;" class="fa-solid fa-box"></i>
+                            <span class="icon-text">Package</span>
+                        </div>
+                    </div>
+                    <div class="inputs-container">
+                        <div class="input-container">
+                            <i id="input-icons" class="fa-solid fa-location-crosshairs"></i>
+                            <input type="text" class="input-feild" placeholder="pickup location" />
+                        </div>
+                        <div class="input-container">
+                            <i id="input-icons" class="fa-solid fa-location-dot"></i>
+                            <input type="text" class="input-feild" placeholder="Dropoff location" />
+                        </div>
+                        <div class="today-time-inputs">
+                            <div class="input-container">
+                                <input type="date" class="input-feild" placeholder="Today" />
+                            </div>
+                            <div class="input-container">
+                                <input type="time" class="input-feild" placeholder="Time" />
+                            </div>
+                        </div>
+                        <button class="prices-btn">See Prices</button>
+                    </div>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243647.34203530906!2d78.24323239564612!3d17.412281015627997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1730649895337!5m2!1sen!2sin" width="700" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+            <section class="suggestions-sections">
+                <h1 class="suggestions-heading">Suggestions</h1>
+                <div class="suggestions-container">
+                    <div class="suggestion-container">
+                        <div class="suggestion-details-container">
+                            <h1 class="sugg-name">Ride</h1>
+                            <p class="sugg-para">Go anywhere with Uber. Request a ride, hop in, and go.</p>
+                            <button class="btn-details">Details</button>
+                        </div>
+                        <img class="sugg-image" alt="car" src="https://mobile-content.uber.com/launch-experience/ride.png" />
+                    </div>
+                    <div class="suggestion-container">
+                        <div class="suggestion-details-container">
+                            <h1 class="sugg-name">Reserve</h1>
+                            <p class="sugg-para">Reserve your ride in advance so you can relax on the day of your trip.</p>
+                            <button class="btn-details">Details</button>
+                        </div>
+                        <img class="sugg-image" alt="car" src="https://mobile-content.uber.com/uber_reserve/reserve_clock.png" />
+                    </div>
+                    <div class="suggestion-container">
+                        <div class="suggestion-details-container">
+                            <h1 class="sugg-name">Package</h1>
+                            <p class="sugg-para">Uber connect makes same-day delivery easier than ever.</p>
+                            <button class="btn-details">Details</button>
+                        </div>
+                        <img class="sugg-image" alt="car" src="https://mobile-content.uber.com/launch-experience/connect.png" />
+                    </div>
+                </div>
+            </section>
+            <section>
+                <img class="sec-image drive-image" alt="drive image" src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,h_552,w_552/v1684855112/assets/96/4dd3d1-94e7-481e-b28c-08d59353b9e0/original/earner-illustra.png" />
+                <div class="section-details-container drive-container">
+                    <h1 class="sec-heading">Drive when you want, make what you need</h1>
+                    <p class="sec-para">Make money on your schedule with deliveries or rides—or both. You can use your own car or choose a rental through Uber.</p>
+                    <div class="sec-btns-container">
+                        <button class="get-started-btn">Get Started</button>
+                        <button class="sec-special-btn">Already have an account? sign in</button>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="section-details-container solutions-container">
+                    <h1 class="sec-heading">The Uber you know, reimagined for business</h1>
+                    <p class="sec-para">Uber for Business is a platform for managing global rides and meals, and local deliveries, for companies of any size.</p>
+                    <div class="sec-btns-container">
+                        <button class="get-started-btn">Get Started</button>
+                        <button class="sec-special-btn">check out our solutions</button>
+                    </div>
+                </div>
+                <img class="sec-image solutions-image" alt="drive image" src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,h_552,w_552/v1684887108/assets/76/baf1ea-385a-408c-846b-59211086196c/original/u4b-square.png" />
+            </section>
+            <section>
+                <img class="sec-image rent-image" alt="rent image" src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,h_552,w_552/v1696243819/assets/18/34e6fd-33e3-4c95-ad7a-f484a8c812d7/original/fleet-management.jpg" />
+                <div class="section-details-container rent-container">
+                    <h1 class="sec-heading">Make money by renting out your car</h1>
+                    <p class="sec-para">Connect with thousands of drivers and earn more per week with Uber’s free fleet management tools.</p>
+                    <div class="sec-btns-container">
+                        <button class="get-started-btn">Get Started</button>
+                    </div>
+                </div>
+            </section>
+            <section class="scanner-section">
+                <div class="scanner-container">
+                    <h1 class="scanner-heading">It's easier in the apps</h1>
+                    <div class="scanners-container">
+                        <div class="scanner-details-container">
+                            <img class="scanner-image" alt="scanner" src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,h_300,w_300/v1690807720/assets/a5/9986ad-0d9f-4396-8539-389bce97f579/original/Final-Download-Uber-App.png" />
+                            <div>
+                                <h1 class="scanner-text">Download the Uber app</h1>
+                                <p class="scanner-desc">Scan to download</p>
+                            </div>
+                        </div>
+                        <div class="scanner-details-container">
+                            <img class="scanner-image" alt="scanner" src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,h_300,w_300/v1690813624/assets/50/e85531-2f7e-4ee7-92d4-e39a6801ee2b/original/QR_https___t.uber.com_download-driver-app.png" />
+                            <div>
+                                <h1 class="scanner-text">Download the Driver app</h1>
+                                <p class="scanner-desc">Scan to download</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+</body>
+
+<footer>
+    <div class="footer-section">
+        <h1 class="footer-heading">Uber</h1>
+        <p class="footer-para">visite Help Center</p>
+        <div class="uber-details-container">
+            <div class="each-category-container">
+                <h1 class="category-heading">Company</h1>
+                <ul class="category-unorder-list">
+                    <li class="category-title">About Us</li>
+                    <li class="category-title">Our offerings</li>
+                    <li class="category-title">Newsroom</li>
+                    <li class="category-title">Investors</li>
+                    <li class="category-title">Blog</li>
+                    <li class="category-title">Careers</li>
+                </ul>
+            </div>
+            <div class="each-category-container">
+                <h1 class="category-heading">Products</h1>
+                <ul class="category-unorder-list">
+                    <li class="category-title">Ride</li>
+                    <li class="category-title">Drive</li>
+                    <li class="category-title">Deliver</li>
+                    <li class="category-title">Eat</li>
+                    <li class="category-title">Uber for Business</li>
+                    <li class="category-title">Uber Freight</li>
+                    <li class="category-title">Gift Cards</li>
+                </ul>
+            </div>
+            <div class="each-category-container">
+                <h1 class="category-heading">Global citizenship</h1>
+                <ul class="category-unorder-list">
+                    <li class="category-title">Safety</li>
+                    <li class="category-title">Diversity and Inclusion</li>
+                    <li class="category-title">Sustainability</li>
+                </ul>
+            </div>
+            <div class="each-category-container">
+                <h1 class="category-heading">Travel</h1>
+                <ul class="category-unorder-list">
+                    <li class="category-title">Reserve</li>
+                    <li class="category-title">Cities</li>
+                </ul>
+            </div>
+        </div>
+        <div class="social-loc-icons-container">
+            <ul class="unorder-list-icons">
+                <li>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-app-images">
+            <img class="footer-image" alt="app store" src="https://d1a3f4spazzrp4.cloudfront.net/uber-com/1.3.8/d1a3f4spazzrp4.cloudfront.net/illustrations/app-store-google-4d63c31a3e.svg" />
+            <img class="footer-image" alt="app store" src="https://d1a3f4spazzrp4.cloudfront.net/uber-com/1.3.8/d1a3f4spazzrp4.cloudfront.net/illustrations/app-store-apple-f1f919205b.svg" />
+        </div>
+        <div class="maintain-details-container">
+            <span class="maintain-title">© 2024Uber Technologies Inc</span>
+            <ul class="maintain-unorder-list">
+                <li class="list-title">Privacy</li>
+                <li class="list-title">Accesibilty</li>
+                <li class="list-title">Terms</li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+</html>
